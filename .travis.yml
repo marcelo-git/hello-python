@@ -1,0 +1,12 @@
+sudo: true
+language: python
+python:
+- '2.7'
+script:
+- echo "TODO"
+deploy:
+  edge: true
+  provider: cloudfoundry
+  username: marcelo.vieira@emc.com
+  password:
+    secure: suNZDR8cmaG1N1BYS7okj3/qirwVULDzj0AITmNrWQjqAMNieuwcSkTzKrQfGPbQ6bvOZT1d+ge+b5Du6KzBX2lxotcQU50lnQLsqcqpUQOJzf9eK10XVae5T2+CSPRoQcVeGOfAhwY1Wfc162aBn6OgABL7GbwdIdP6F+At8cqgg59RKa28haLuDP7V3Ns0JuXOo2ESLRGi818TgIvsrDuZNaOUfjQqZfQBrRayx/XYYVF48CnecRHiMMJNGAyw2xBgyaqutNi5QlWtlMbfISUIaxg1lYsOyN3K4ak7egb5U+HI88VLj0/bmsRCkdjyKzUWyNYtt9EEMKKAz6p3w963EY3TrpnHD8Fd+5M4bGSm9VuYmvL7KMsEv4jmoXKtAOr3atJdhkPc7FKxQHXdju9bKBx2kZ7zP0myHbirWv51lgGizHPlhRbvqysx81F+tSj4pulpN5SN+4RXqnnq3/o3KSdAXLf7sdzCz/WJRr14QVasOSFClMKiVmqeXF3q50y63mjL+qQFXjIzdo96ovgW8s9MsxXRPVbESlPbW6hQj8UHDH3pM4jKRXQOj+UdebECUUomTg68+vV9Jl1YXHdbOd07bPwRg0pIoEMaI/tG6DfLgsjV2VDLTxUILsJL7p4QHaDVRzmTc6taEgWB9xOo+YGUl+jGO0di5iD5igA=
