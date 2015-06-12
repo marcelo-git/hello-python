@@ -4,6 +4,8 @@ import urlparse
 import redis
 import json
 import random
+import newrelic.agent
+newrelic.agent.initialize('./newrelic.ini')
 from flask import Flask
 app = Flask(__name__)
 my_uuid = str(uuid.uuid1())
